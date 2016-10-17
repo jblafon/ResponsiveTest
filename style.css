@@ -3,10 +3,6 @@ body {
 	margin: 0px;
 }
 
-img {
-/*	margin: 10px;*/
-}
-
 /*
 @media screen and (max-device-width: 359px) {
 	#bigPic {
@@ -20,7 +16,7 @@ img {
 		text-align: center;
 	}
 }
-*/
+
 
 @media screen and (max-device-width: 400px) {
 	img {
@@ -31,3 +27,4 @@ img {
 		text-align: center;
 	}
 }
+*/
