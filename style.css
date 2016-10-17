@@ -3,7 +3,7 @@ body {
 	margin: 0px;
 }
 
-@media screen and (max-device-width:50px){
+@media screen and (max-device-width:400px){
 	#bigPic {
 		max-width: 100vw;
 	}
