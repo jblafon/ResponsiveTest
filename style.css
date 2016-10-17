@@ -22,7 +22,7 @@ img {
 }
 */
 
-@media screen and (max-device-width: 250px) {
+@media screen and (max-device-width: 400px) {
 	img {
 		width: 100vw;
 	}
