@@ -1,16 +1,34 @@
 body {
 	text-align: center;
 	margin: 0px;
-	max-width: 100%;
+	max-width: 100vw;
+	background-color: #aaa;
+}
+
+.stdPic {
+	margin: 2.5vw 2.5vh;
+	box-shadow: 5px 0px 5px #000;
+	border-radius: 1vw;
 }
 
 /*---Mobile---*/
-@media screen and (max-device-width:720px){
-	img{
-		width: 100%;
+
+@media screen and (max-device-width:720px) {
+	.stdPic {
+		width: 95vw;
+		margin: 2.5vw 2.5vh;
+		box-shadow: 5px 0px 5px #000;
+		border-radius: 1vw;
 	}
-	body {
-		background-color: red;
-		text-align: center;
+}
+
+/*---Tablet---*/
+
+@media screen and (max-device-width:1280px) {
+	.stdPic {
+		width: 95vw;
+		margin: 2.5vw 2.5vh;
+		box-shadow: 5px 0px 5px #000;
+		border-radius: 1vw;
 	}
 }
